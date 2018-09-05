@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Playfair+Display:400,400i,700,700i,900,900i|Raleway:200,300,400,400i,500,500i,600,600i,700,800" rel="stylesheet">
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+
+
+    <body>
+        <div class="page-content">
+            <div id="page-1" class="section">
+                <span class="hamburger" onclick="openNav()">&#9776;</span>
+                
+                <!-- slide out navigation source -
+                https://www.w3schools.com/howto/howto_js_sidenav.asp
+
+                -->
+                <nav class="slide-nav" id="nav">
+                    <a onclick="closeNav()" id="closeNav">&times;</a>
+                    <a href="#page-1" onclick="closeNav()">Home</a>
+                    <a href="#page-2" onclick="closeNav()">Skills</a>
+                    <a href="#page-3" onclick="closeNav()">Projects</a>
+                    <a href="#page-4" onclick="closeNav()">Contact</a>
+                </nav>
+                
+                <div class="intro">
+                    <h1>Hello, I'm Ailish Myers</h1>
+                    <h2>A multimedia programming</h2>
+                    <h2>student based in New York.</h2>
+                    <h3>Click here to learn more <a href="#page-2">&#9662;</a></h3>
+                </div>
+            </div>
+            
+            <div id="page-2" class="section">
+                <div class="cardholder">
+                    <div class="skill-card">
+                        <img src="images/page-two/codesymbol.png">
+                        <h1>Web Design</h1>
+                        <p>Graphic design with Adobe Photoshop and Illustrator and a strong focus on user experience design.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/page-two/uxui.png">
+                        <h1>Web Development</h1>
+                        <p>Skilled in HTML, CSS, Javascript, &amp; JQuery with focus on clean and responsive websites.</p>
+                    </div>
+                </div>    
+            </div>
+            
+            <div id="page-3" class="section">
+                <div class="cardholder project-holder">
+                    <div class="project-card">
+                        <a href= "https://ailishmyers.github.io/mmp210midterm/"><img src="images/page-three/project-1.png"></a>
+                        <h1>Whack-A-Bear</h1>
+                        <p>A p5.js spin off Whack-A-Mole which prompts the player to score as many points as they can in 30 seconds. Designed with HTML, CSS, JavaScript, and P5.js.</p>
+                    </div>
+                    <div class="project-card">
+                        <a href= "https://ailishmyers.github.io/mmp200final/"><img src="images/page-three/project-2.png"></a>
+                        <h1>Static Blog</h1>
+                        <p>A small, responsive website with four unique pages made for image heavy content. Designed with HTML, CSS, JavaScript, and Bootstrap.</p>
+                    </div>
+                    <div class="project-card">
+                        <a href= "https://ailishmyers.github.io/mmp210final/"><img src="images/page-three/project-3.png"></a>
+                        <h1>Juke Box</h1>
+                        <p>An online juke-box that plays whichever song the user selected. Designed with Photoshop, HTML, CSS, JavaScript, and P5.js.</p>
+                    </div>
+                </div>    
+            </div>
+        
+            <div id="page-4" class="section">
+                <div class="contact-box">
+                    <h1>For more information,<br>contact me by e-mail or visit my github.</h1>
+                    <div class="icon-box">
+                        <div class="email-link">
+                            <i class="far fa-envelope"></i>
+                        </div>
+                        <div class="github-link">
+                            <i class="fab fa-github"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            
+            
+        function openNav() {
+            document.getElementById("nav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("nav").style.width = "0";
+        }    
+        </script>
+    </body>
+
+</html>
