@@ -165,7 +165,7 @@ h2{
     padding: 20px;
 }
 
-.email-link, .github-link{
+.github-link{
     display: inline;
     padding: 10px;
     margin: 15px;
@@ -174,12 +174,12 @@ h2{
     border-radius: 50%;
 }
 
-.email-link{
-    padding: 10px 5px 10px 14px;
-}
-
 .github-link{
     padding: 11px 15px;
+}
+
+.github-link a{
+    color: #333;
 }
 
 
@@ -240,7 +240,7 @@ h2{
     }
     
     nav{
-        width: 100% !important;
+        width: auto !important;
     }
     
     .slide-nav{
@@ -264,7 +264,7 @@ h2{
         display: block;
         width: 840px;
         transform: rotate(0deg);
-        margin-top: -100px;
+        margin-top: -150px;
         top: 75%;
         left: 40%;
         transition: .5s;
@@ -326,11 +326,12 @@ h2{
     .project-card img{
         width: 100%;
     }
+    
     .icon-box{
         padding: 80px;
     }
 
-    .email-link, .github-link{
+    .github-link{
         margin: 25px;
         font-size: 46px;
     }
