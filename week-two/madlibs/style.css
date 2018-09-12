@@ -1,0 +1,6 @@
+input, textarea, button, select {
+    display: block;
+    margin: 20px;
+    padding: 15px;
+    font-size: 18px;
+}
