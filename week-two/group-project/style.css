@@ -1,0 +1,15 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    text-align: center;
+    width: 80%;
+    height: 100vh;
+}
+
+#scenario-2, #scenario-3, #scenario-4, #scenario-5, #scenario-6, #scenario-7 {
+    display: none;
+} 
