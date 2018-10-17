@@ -1,0 +1,11 @@
+check if all answers were selected, and if they are show results on result button click
+
+add function to mark correct/incorrect that changes border color to red or green
+
+const container = "document.getElementById('container');                                                                                                                                                                                                                                           
+
+const resultImages = [
+    "good image url",
+    "average image url",
+    "bad image url"
+];
