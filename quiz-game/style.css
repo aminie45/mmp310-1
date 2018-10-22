@@ -16,29 +16,21 @@
     font-weight: 900;
 }
 
-form{
-    padding: 20px;
-}
-
-form h3{
+h3{
     margin: 20px 5px;
     font-family: Helvetica, sans-serif;
     font-size: 24px;
 }
 
-label img{
+.answer img{
     margin: 10px;
     border: 4px transparent solid;
     width: 100px;
     cursor: pointer;
 }
 
-label input:checked + img{
+.answer input:checked + img{
     border: 4px skyblue solid;
-}
-
-label input{
-    visibility: hidden;
 }
 
 #results{
@@ -57,4 +49,10 @@ label input{
     transition: .2s;
 }
 
+#result{
+    margin: 40px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
 
